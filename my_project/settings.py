@@ -116,6 +116,11 @@ CSRF_TRUSTED_ORIGINS = [
     "https://8000-solracnauj9-youmatterpp-9osfcqg9wk8.ws-eu108.gitpod.io",
 ]
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dvcs5hl0c',  
+    'API_KEY': '771477534524765',        
+    'API_SECRET': '7WqQ5u8VcvWMktpoGwPlmtgFA1Q',
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
