@@ -114,6 +114,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
     "https://8000-solracnauj9-youmatterpp-9osfcqg9wk8.ws-eu108.gitpod.io",
+    "https://8000-solracnauj9-youmatterpp-9ocdvzr0sfu.ws-eu110.gitpod.io",
 ]
 
 CLOUDINARY_STORAGE = {
