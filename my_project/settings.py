@@ -17,6 +17,8 @@ if os.path.isfile('env.py'):
     import env
 import cloudinary
 import cloudinary_storage
+import cloudinary.uploader
+import cloudinary.api
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -117,6 +119,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://8000-solracnauj9-youmatterpp-9osfcqg9wk8.ws-eu108.gitpod.io",
     "https://8000-solracnauj9-youmatterpp-9ocdvzr0sfu.ws-eu110.gitpod.io",
+    "https://8000-solracnauj9-youmatterpp-fq3rc9oppuh.ws-eu110.gitpod.io",
 ]
 
 CLOUDINARY_STORAGE = {
@@ -124,6 +127,8 @@ CLOUDINARY_STORAGE = {
     'API_KEY': '771477534524765',        
     'API_SECRET': '7WqQ5u8VcvWMktpoGwPlmtgFA1Q',
 }
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
