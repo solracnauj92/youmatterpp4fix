@@ -120,6 +120,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://8000-solracnauj9-youmatterpp-9osfcqg9wk8.ws-eu108.gitpod.io",
     "https://8000-solracnauj9-youmatterpp-9ocdvzr0sfu.ws-eu110.gitpod.io",
     "https://8000-solracnauj9-youmatterpp-fq3rc9oppuh.ws-eu110.gitpod.io",
+    "https://8000-solracnauj9-youmatterpp-n22zlg6dvnk.ws-eu110.gitpod.io",
 ]
 
 CLOUDINARY_STORAGE = {
